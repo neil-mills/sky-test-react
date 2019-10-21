@@ -5,10 +5,7 @@ import { h3 } from '../utilities/typography';
 const SearchItem = props => {
     const { className, item } = props;
     const { title, url, description } = item;
-   
-    const handleClick = () => {
-        window.location.href = url;
-    }
+
 
     return (
         <li className={className}>

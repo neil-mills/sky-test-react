@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Search from './Search';
-import { white, blue, darkBlue } from '../utilities/colors';
+import { white, darkBlue } from '../utilities/colors';
 
 const Header = ({className}) => {
     return (
